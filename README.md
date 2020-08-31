@@ -34,3 +34,13 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 ### 废话
 
 虽然要上高三了，但我还是尽量继续维护。等到明年考完了我一定要把这个源做好！（flag先立在这里）
+
+铺路队的小伙伴们要帮我打包新软件哦！
+
+
+
+交流群：1039477758
+
+论坛：https://clinux.co/
+
+或者直接酷安搜Linux话题
