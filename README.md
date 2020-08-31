@@ -25,11 +25,11 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 
 #### 1.flutter-coolapk：
 
-[@Cyenoch](https://github.com/Cyenoch)大佬写的酷安flutter版，现由[@xkeyc](https://github.com/xkeyC)大佬维护，虽然功能有些残缺，但是日常刷刷酷安还是可以的。项目原地址：https://github.com/Cyenoch/Flutter-Coolapk；新地址：https://github.com/clinux-co/coolapk_flutter
+[@Cyenoch](https://github.com/Cyenoch)大佬写的酷安flutter版，现由[@xkeyc](https://github.com/xkeyC)大佬维护，虽然功能有些残缺，但是日常刷刷酷安还是可以的。项目原地址：https://github.com/Cyenoch/Flutter-Coolapk ；新地址：https://github.com/clinux-co/coolapk_flutter
 
 #### 2.top.yzzi.tomato
 
-[@一只科技菌](https://github.com/uiYzzi)大佬写的简约番茄钟，配合deepinv20桌面食用最佳。项目地址：https://github.com/uiYzzi/one-tomato。提醒一下，从terminal启动这个应用直接输入one-tomato。
+[@一只科技菌](https://github.com/uiYzzi)大佬写的简约番茄钟，配合deepinv20桌面食用最佳。项目地址：https://github.com/uiYzzi/one-tomato。 提醒一下，从terminal启动这个应用直接输入one-tomato。
 
 ### 废话
 
