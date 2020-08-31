@@ -58,3 +58,5 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 论坛：https://clinux.co/
 
 或者直接酷安搜Linux话题
+
+其实是endeavour os的repo让我意识到可以这样搞的（他们repo挂GitHub上）
