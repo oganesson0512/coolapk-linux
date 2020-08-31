@@ -1,7 +1,7 @@
 # CoolapkLinux
 
 #### 介绍
-Arch的个人源，专门放archlinuxcn上面没有的软件，其中很多来源于酷安（当然，现在并没有多少）。
+酷安Linux交流群的Arch源，专门放archlinuxcn上面没有的软件，其中很多来源于酷安（当然，现在并没有多少）。
 
 #### 使用方法
 
@@ -31,3 +31,6 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 
 [@一只科技菌](https://github.com/uiYzzi)大佬写的简约番茄钟，配合deepinv20桌面食用最佳。项目地址：https://github.com/uiYzzi/one-tomato。提醒一下，从terminal启动这个应用直接输入one-tomato。
 
+### 废话
+
+虽然要上高三了，但我还是尽量继续维护。等到明年考完了我一定要把这个源做好！（flag先立在这里）
