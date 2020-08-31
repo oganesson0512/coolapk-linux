@@ -25,11 +25,25 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 
 #### 1.flutter-coolapk：
 
-[@Cyenoch](https://github.com/Cyenoch)大佬写的酷安flutter版，现由[@xkeyc](https://github.com/xkeyC)大佬维护，虽然功能有些残缺，但是日常刷刷酷安还是可以的。项目原地址：https://github.com/Cyenoch/Flutter-Coolapk ；新地址：https://github.com/clinux-co/coolapk_flutter
+大佬写的酷安flutter版，现由[@xkeyc](https://github.com/xkeyC)大佬维护，虽然功能有些残缺，但是日常刷刷酷安还是可以的。    
+
+项目原地址：https://github.com/Cyenoch/Flutter-Coolapk 				
+
+新地址：https://github.com/clinux-co/coolapk_flutter    
 
 #### 2.top.yzzi.tomato
 
-[@一只科技菌](https://github.com/uiYzzi)大佬写的简约番茄钟，配合deepinv20桌面食用最佳。项目地址：https://github.com/uiYzzi/one-tomato。 提醒一下，从terminal启动这个应用直接输入one-tomato。
+大佬写的简约番茄钟，配合deepinv20桌面食用最佳，gnome和kde在标题栏显示上也许有点点问题。。提醒一下，从terminal启动这个应用直接输入one-tomato。     
+
+项目地址：https://github.com/uiYzzi/one-tomato      
+
+#### 3.purewriter
+
+没错就是纯纯写作！由[@drakeet](https://github.com/PureWriter)大佬编写，[@Liaronce](https://github.com/LiarOnce)大佬编译。需要购买纯纯写作会员才能食用。目前可能有一些功能上的问题。         
+
+源码：https://github.com/PureWriter/desktop             
+
+编译后的版本：https://purewriter.liaronce.com/#/          
 
 ### 废话
 
