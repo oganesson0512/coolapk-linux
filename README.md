@@ -6,9 +6,9 @@ Arch的个人源
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+[coolapk-linux]
+SigLevel = Optional TrustAll
+Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 
 #### 使用说明
 
