@@ -43,7 +43,15 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 
 源码：https://github.com/PureWriter/desktop             
 
-编译后的版本：https://purewriter.liaronce.com/#/          
+编译后的版本：https://purewriter.liaronce.com/#/      
+
+#### 4.Utools
+你的生产力工具集。
+
+官网：https://u.tools/
+
+AUR：https://aur.archlinux.org/packages/utools/
+
 
 ### 废话
 
@@ -59,4 +67,4 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 
 或者直接酷安搜Linux话题
 
-其实是endeavour os的repo让我意识到可以这样搞的（他们repo挂GitHub上）
+因为开学了周末只能用我母亲的电脑，软件在wsl下打包，如果有问题请及时发issue
