@@ -23,6 +23,8 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 
 ### 已有软件
 
+以下名称均为软件包名。
+
 #### 1.flutter-coolapk：
 
 大佬写的酷安flutter版，现由[@xkeyc](https://github.com/xkeyC)大佬维护，虽然功能有些残缺，但是日常刷刷酷安还是可以的。    
@@ -45,7 +47,7 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 
 编译后的版本：https://purewriter.liaronce.com/#/      
 
-#### 4.Utools
+#### 4.utools
 你的生产力工具集。
 
 官网：https://u.tools/
