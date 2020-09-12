@@ -1,4 +1,4 @@
-# CoolapkLinux
+﻿# CoolapkLinux
 
 #### 介绍
 酷安Linux交流群的Arch源，专门放archlinuxcn上面没有的软件，其中很多来源于酷安（当然，现在并没有多少）。
@@ -54,6 +54,8 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 
 AUR：https://aur.archlinux.org/packages/utools/
 
+#### 5.mcpelauncher
+正在施工ing...
 
 ### 废话
 
