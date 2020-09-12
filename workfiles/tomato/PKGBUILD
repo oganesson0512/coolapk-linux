@@ -1,0 +1,24 @@
+# Packed by @Alexander-Huang
+# Thank @Cyenoch for his great job
+
+pkgname=top.yzzi.tomato
+_pkgname=onetomato
+pkgver=1.0.5
+pkgrel=1
+pkgdesc='可爱的番茄钟'
+arch=('x86_64')
+depends=('dtkwidget')
+url='https://blog.yzzi.top'
+license=('unknown')
+provides=(coolapk=${pkgver})
+
+
+package() {
+mkdir -p $pkgdir/opt/
+mkdir -p $pkgdir/usr/share/applications/
+cd /home/alex/下载/tomato
+cp -r ./opt/top.yzzi.tomato $pkgdir/opt/
+cp -r $pkgdir/opt/top.yzzi.tomato/entries/applications/top.yzzi.tomato.desktop $pkgdir/usr/share/applications/
+mkdir -p $pkgdir/usr/bin/
+ln -s $pkgdir/opt/top.yzzi.tomato/files/one-tomato $pkgdir/usr/bin/one-tomato
+}

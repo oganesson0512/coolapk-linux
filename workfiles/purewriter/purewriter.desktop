@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=0.2.2
+Type=Application
+Exec=/opt/purewriter/PureWriter
+Name=PureWriter
+Icon=/opt/purewriter/icon/purewriter.png
+Terminal=false  

@@ -1,0 +1,21 @@
+
+pkgname=purewriter
+_pkgname=纯纯写作
+pkgver=0.2.2
+pkgrel=1
+pkgdesc='PureWriter for Linux'
+arch=('x86_64')
+url='https://purewriter.liaronce.com/#/'
+license=('gplv3')
+provides=(purewriter=${pkgver})
+
+
+package() {
+mkdir -p $pkgdir/opt/
+mkdir -p $pkgdir/usr/share/applications/
+cd /home/alex/下载/PureWriter
+cp -r ./purewriter $pkgdir/opt/
+cp -r ./purewriter.desktop $pkgdir/usr/share/applications/
+mkdir -p "$pkgdir/usr/bin"
+ln -s ./purewriter/PureWriter $pkgdir/usr/bin/purewriter
+}
