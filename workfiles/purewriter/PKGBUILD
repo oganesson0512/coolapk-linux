@@ -1,7 +1,7 @@
 
 pkgname=purewriter
 _pkgname=纯纯写作
-pkgver=0.2.2
+pkgver=0.3.1
 pkgrel=1
 pkgdesc='PureWriter for Linux'
 arch=('x86_64')
@@ -13,7 +13,7 @@ provides=(purewriter=${pkgver})
 package() {
 mkdir -p $pkgdir/opt/
 mkdir -p $pkgdir/usr/share/applications/
-cd /home/alex/下载/PureWriter
+cd /home/alex/work
 cp -r ./purewriter $pkgdir/opt/
 cp -r ./purewriter.desktop $pkgdir/usr/share/applications/
 mkdir -p "$pkgdir/usr/bin"
