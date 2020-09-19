@@ -4,9 +4,8 @@
 
 **9月13日** 由于本人疏忽导致昨天更新的purewriter权限异常且无图标，已重新打包，但仍然无法启动，日志显示“qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 38800, resource id: 85983243, major code: 18 (ChangeProperty), minor code: 0“，不知道是否为我的运行环境的问题。     
 
-我把0.2.2版本重新打包为purewriter-old，最新版仍为purewriter，望轻拍（    
+我把0.2.2版本重新打包为purewriter-old，最新版仍为purewriter，望轻拍orz    
 
-另外，下周将开始打包mcpelauncher！
 
 #### 介绍
 
@@ -20,7 +19,12 @@
 [coolapk-linux]
 SigLevel = Optional TrustAll
 Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
+
+#[coolapk-linux32]
+#SigLevel = Optional TrustAll
+#Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 ```
+（coolapk-linux32里面专门放32位的包）
 
 然后执行：
 
@@ -44,7 +48,7 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 
 #### 2.top.yzzi.tomato
 
-大佬写的简约番茄钟，配合deepinv20桌面食用最佳，gnome和kde在标题栏显示上也许有点点问题。。提醒一下，从terminal启动这个应用直接输入one-tomato。     
+[@uzYzzi](https://github.com/uiYzzi)大佬写的简约番茄钟，配合deepinv20桌面食用最佳，gnome和kde在标题栏显示上也许有点点问题。。提醒一下，从terminal启动这个应用直接输入one-tomato。     
 
 项目地址：https://github.com/uiYzzi/one-tomato      
 
@@ -63,8 +67,18 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 
 AUR：https://aur.archlinux.org/packages/utools/
 
-#### 5.mcpelauncher
-正在施工ing...
+#### 5.mcpelauncher-client
+用来在Linux上运行Minecraft基岩版，通过在Linux上补全bionic有关库的方式运行android版mc。自测性能比Java版强些，但需要找到对应版本的apk（我只能说在某个群里有），而且必须是x86（或者如果你在Play上买了可以登录Google账户来获取）。    
+
+mcpelauncher-client是i386架构，需要打开[multilib]并添加[coolapk-linux32]。
+
+源码：https://github.com/minecraft-linux/mcpelauncher-manifest
+
+Wiki：https://mcpelauncher.readthedocs.io/en/latest/getting_started.html
+
+现在还算活跃更新的一个fork：https://github.com/ChristopherHX/linux-packaging-scripts/
+
+以后可能会考虑使用后者继续更新。
 
 ### 废话
 
