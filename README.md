@@ -1,6 +1,15 @@
 ﻿# CoolapkLinux
 
+### 公告板
+
+**9月13日** 由于本人疏忽导致昨天更新的purewriter权限异常且无图标，已重新打包，但仍然无法启动，日志显示“qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 38800, resource id: 85983243, major code: 18 (ChangeProperty), minor code: 0“，不知道是否为我的运行环境的问题。     
+
+我把0.2.2版本重新打包为purewriter-old，最新版仍为purewriter，望轻拍（    
+
+另外，下周将开始打包mcpelauncher！
+
 #### 介绍
+
 酷安Linux交流群的Arch源，专门放archlinuxcn上面没有的软件，其中很多来源于酷安（当然，现在并没有多少）。
 
 #### 使用方法
