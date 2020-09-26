@@ -6,7 +6,7 @@
 
 我把0.2.2版本重新打包为purewriter-old，最新版仍为purewriter，望轻拍orz    
 
-
+**9月26日** 已修复mcpelauncher安装时提示corrupt packages的问题。
 #### 介绍
 
 酷安Linux交流群的Arch源，专门放archlinuxcn上面没有的软件，其中很多来源于酷安（当然，现在并没有多少）。
@@ -79,6 +79,16 @@ Wiki：https://mcpelauncher.readthedocs.io/en/latest/getting_started.html
 现在还算活跃更新的一个fork：https://github.com/ChristopherHX/linux-packaging-scripts/
 
 以后可能会考虑使用后者继续更新。
+
+#### 6.chromeos-gtk-theme
+[@vinceluice](https://github.com/vinceliuice)写的仿chromeos gtk主题。
+
+源码：https://github.com/vinceliuice/ChromeOS-theme
+
+#### 7.gnome-shell-system-monitor-applet
+gnome插件，用以监控系统状态。
+
+源码：https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet
 
 ### 废话
 
