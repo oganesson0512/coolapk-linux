@@ -38,7 +38,12 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 
 以下名称均为软件包名。
 
-#### 1.flutter-coolapk：
+#### 1.chromeos-gtk-theme
+[@vinceluice](https://github.com/vinceliuice)写的仿chromeos gtk主题。
+
+源码：https://github.com/vinceliuice/ChromeOS-theme
+
+#### 2.flutter-coolapk：
 
 大佬写的酷安flutter版，现由[@xkeyc](https://github.com/xkeyC)大佬维护，虽然功能有些残缺，但是日常刷刷酷安还是可以的。    
 
@@ -46,28 +51,12 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 
 新地址：https://github.com/clinux-co/coolapk_flutter    
 
-#### 2.top.yzzi.tomato
+#### 3.gnome-shell-system-monitor-applet
+gnome插件，用以监控系统状态。
 
-[@uzYzzi](https://github.com/uiYzzi)大佬写的简约番茄钟，配合deepinv20桌面食用最佳，gnome和kde在标题栏显示上也许有点点问题。。提醒一下，从terminal启动这个应用直接输入one-tomato。     
+源码：https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet
 
-项目地址：https://github.com/uiYzzi/one-tomato      
-
-#### 3.purewriter
-
-没错就是纯纯写作！由[@drakeet](https://github.com/PureWriter)大佬编写，[@Liaronce](https://github.com/LiarOnce)大佬编译。需要购买纯纯写作会员才能食用。目前可能有一些功能上的问题。         
-
-源码：https://github.com/PureWriter/desktop             
-
-编译后的版本：https://purewriter.liaronce.com/#/      
-
-#### 4.utools
-你的生产力工具集。
-
-官网：https://u.tools/
-
-AUR：https://aur.archlinux.org/packages/utools/
-
-#### 5.mcpelauncher-client
+#### 4.mcpelauncher-client
 用来在Linux上运行Minecraft基岩版，通过在Linux上补全bionic有关库的方式运行android版mc。自测性能比Java版强些，但需要找到对应版本的apk（我只能说在某个群里有），而且必须是x86（或者如果你在Play上买了可以登录Google账户来获取）。    
 
 mcpelauncher-client是i386架构，需要打开[multilib]并添加[coolapk-linux32]。
@@ -80,15 +69,26 @@ Wiki：https://mcpelauncher.readthedocs.io/en/latest/getting_started.html
 
 以后可能会考虑使用后者继续更新。
 
-#### 6.chromeos-gtk-theme
-[@vinceluice](https://github.com/vinceliuice)写的仿chromeos gtk主题。
+#### 5.purewriter
+没错就是纯纯写作！由[@drakeet](https://github.com/PureWriter)大佬编写，[@Liaronce](https://github.com/LiarOnce)大佬编译。需要购买纯纯写作会员才能食用。目前可能有一些功能上的问题。         
 
-源码：https://github.com/vinceliuice/ChromeOS-theme
+源码：https://github.com/PureWriter/desktop             
 
-#### 7.gnome-shell-system-monitor-applet
-gnome插件，用以监控系统状态。
+编译后的版本：https://purewriter.liaronce.com/#/    
 
-源码：https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet
+#### 6.top.yzzi.tomato
+
+[@uzYzzi](https://github.com/uiYzzi)大佬写的简约番茄钟，配合deepinv20桌面食用最佳，gnome和kde在标题栏显示上也许有点点问题。。提醒一下，从terminal启动这个应用直接输入one-tomato。     
+
+项目地址：https://github.com/uiYzzi/one-tomato      
+  
+#### 7.utools
+你的生产力工具集。
+
+官网：https://u.tools/
+
+AUR：https://aur.archlinux.org/packages/utools/
+
 
 ### 废话
 
