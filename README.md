@@ -7,6 +7,9 @@
 我把0.2.2版本重新打包为purewriter-old，最新版仍为purewriter，望轻拍orz    
 
 **9月26日** 已修复mcpelauncher安装时提示corrupt packages的问题。
+
+**10月1日** 因gitee下载功能异常，仓库会无法正常下载软件包（
+
 #### 介绍
 
 酷安Linux交流群的Arch源，专门放archlinuxcn上面没有的软件，其中很多来源于酷安（当然，现在并没有多少）。
@@ -81,7 +84,7 @@ Wiki：https://mcpelauncher.readthedocs.io/en/latest/getting_started.html
 [@uzYzzi](https://github.com/uiYzzi)大佬写的简约番茄钟，配合deepinv20桌面食用最佳，gnome和kde在标题栏显示上也许有点点问题。。提醒一下，从terminal启动这个应用直接输入one-tomato。     
 
 项目地址：https://github.com/uiYzzi/one-tomato      
-  
+
 #### 7.utools
 你的生产力工具集。
 
