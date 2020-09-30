@@ -1,0 +1,14 @@
+- name: Mirror a repository using SSH
+  uses: wearerequired/git-mirror-action@v1.0.1
+  on: [ push, delete, create ]
+
+  jobs:
+    git-mirror:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: CoolapkLinux/coolapk-linux
+          env:
+            SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          with:
+            source-repo: 'git@gitee.com:alexander-huang/coolapk-linux.git'
+            destination-repo: 'git@github.com:CoolapkLinux/coolapk-linux.git'
