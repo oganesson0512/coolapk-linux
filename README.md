@@ -1,4 +1,7 @@
-﻿# CoolapkLinux
+# CoolapkLinux
+![repo-freshing](https://img.shields.io/badge/repo-freshing-brightgreen)
+
+
 
 [切换Github](https://github.com/CoolapkLinux/coolapk-linux)|[切换Gitee](https://gitee.com/alexander-huang/coolapk-linux)
 
