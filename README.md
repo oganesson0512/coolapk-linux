@@ -1,5 +1,6 @@
 # CoolapkLinux
-[![alt text](https://img.shields.io/badge/ON-GitHub-blue "on-github")](https://github.com/CoolapkLinux/coolapk-linux) [![alt text](https://img.shields.io/badge/ON-Gitee-orange "on-gitee")](https://gitee.com/alexander-huang/coolapk-linux)    ![Weekly-freshing](https://img.shields.io/badge/Weekly-freshing-brightgreen) ![assistance-needing](https://img.shields.io/badge/Assistance-needing-inactive) ![repo-arch](https://img.shields.io/badge/repo-Arch%20Linux-9cf)
+[![alt text](https://img.shields.io/badge/ON-GitHub-blue "on-github")](https://github.com/CoolapkLinux/coolapk-linux) [![alt text](https://img.shields.io/badge/ON-Gitee-orange "on-gitee")](https://gitee.com/alexander-huang/coolapk-linux)    ![repo-arch](https://img.shields.io/badge/repo-Arch%20Linux-9cf)
+![Weekly-freshing](https://img.shields.io/badge/Weekly-freshing-brightgreen) ![assistance-needing](https://img.shields.io/badge/Assistance-needing-inactive) 
 
 
 
