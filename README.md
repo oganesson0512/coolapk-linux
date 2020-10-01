@@ -22,7 +22,7 @@
 
 先将源地址写入/etc/pacman.conf：国内用户推荐使用Gitee上的：
 
-```
+```yaml
 [coolapk-linux]
 SigLevel = Optional TrustAll
 Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
@@ -33,7 +33,7 @@ Server = https://gitee.com/alexander-huang/coolapk-linux/raw/master/$repo/$arch
 ```
 当然，如果你能顺畅访问Github，你也可以用：
 
-```
+```yaml
 [coolapk-linux]
 SigLevel = Optional TrustAll
 Server = https://github.com/CoolapkLinux/coolapk-linux/raw/master/$repo/$arch
@@ -47,8 +47,8 @@ Server = https://github.com/CoolapkLinux/coolapk-linux/raw/master/$repo/$arch
 
 然后执行：
 
-```
-#pacman -Syy
+```shell
+sudo pacman -Syy
 ```
 
 出于某些奇怪的问题，同步软件包数据库的时候不会显示coolapk-linux的进度条，但目测有效，请放心食用。（如果知道解决方法还请大佬不吝赐教）
