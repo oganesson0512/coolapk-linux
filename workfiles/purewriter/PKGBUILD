@@ -8,12 +8,13 @@ arch=('x86_64')
 url='https://purewriter.liaronce.com/#/'
 license=('gplv3')
 provides=(purewriter=${pkgver})
+directory='/home/alex/work'
 
 
 package() {
 mkdir -p $pkgdir/opt/
 mkdir -p $pkgdir/usr/share/applications/
-cd /home/alex/work
+cd ${directory}
 cp -r ./purewriter $pkgdir/opt/
 cp -r ./purewriter.desktop $pkgdir/usr/share/applications/
 mkdir -p "$pkgdir/usr/bin"
