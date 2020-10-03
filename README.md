@@ -60,27 +60,27 @@ sudo pacman -Syy
 #### chromeos-gtk-theme
 [@vinceluice](https://github.com/vinceliuice)写的仿chromeos gtk主题。
 
-源码：https://github.com/vinceliuice/ChromeOS-theme
+Github：https://github.com/vinceliuice/ChromeOS-theme
 
 #### flutter-coolapk：
 
 大佬写的酷安flutter版，现由[@xkeyc](https://github.com/xkeyC)大佬维护，虽然功能有些残缺，但是日常刷刷酷安还是可以的。    
 
-项目原地址：https://github.com/Cyenoch/Flutter-Coolapk 				
+Github：https://github.com/Cyenoch/Flutter-Coolapk 				
 
-新地址：https://github.com/clinux-co/coolapk_flutter    
+Github新地址：https://github.com/clinux-co/coolapk_flutter    
 
 #### gnome-shell-system-monitor-applet
 gnome插件，用以监控系统状态。
 
-源码：https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet
+Github：https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet
 
 #### mcpelauncher-client
 用来在Linux上运行Minecraft基岩版，通过在Linux上补全bionic有关库的方式运行android版mc。自测性能比Java版强些，但需要找到对应版本的apk（我只能说在某个群里有），而且必须是x86（或者如果你在Play上买了可以登录Google账户来获取）。    
 
 mcpelauncher-client是i386架构，需要打开[multilib]并添加[coolapk-linux32]。
 
-源码：https://github.com/minecraft-linux/mcpelauncher-manifest
+Github：https://github.com/minecraft-linux/mcpelauncher-manifest
 
 Wiki：https://mcpelauncher.readthedocs.io/en/latest/getting_started.html
 
@@ -91,7 +91,7 @@ Wiki：https://mcpelauncher.readthedocs.io/en/latest/getting_started.html
 #### purewriter
 没错就是纯纯写作！由[@drakeet](https://github.com/PureWriter)大佬编写，[@Liaronce](https://github.com/LiarOnce)大佬编译。需要购买纯纯写作会员才能食用。目前可能有一些功能上的问题。         
 
-源码：https://github.com/PureWriter/desktop             
+Github：https://github.com/PureWriter/desktop             
 
 编译后的版本：https://purewriter.liaronce.com/#/    
 
@@ -99,7 +99,7 @@ Wiki：https://mcpelauncher.readthedocs.io/en/latest/getting_started.html
 
 [@uzYzzi](https://github.com/uiYzzi)大佬写的简约番茄钟，配合deepinv20桌面食用最佳，gnome和kde在标题栏显示上也许有点点问题。。提醒一下，从terminal启动这个应用直接输入one-tomato。     
 
-项目地址：https://github.com/uiYzzi/one-tomato      
+Github：https://github.com/uiYzzi/one-tomato      
 
 #### utools
 
@@ -108,6 +108,16 @@ Wiki：https://mcpelauncher.readthedocs.io/en/latest/getting_started.html
 官网：https://u.tools/
 
 AUR：https://aur.archlinux.org/packages/utools/
+
+#### yaru-gtk-theme-git
+
+ubuntu默认的yaru主题，颜色多样。
+
+Github：https://github.com/Jannomag/Yaru-Colors
+
+#### yaru-icon-theme-git
+
+与以上主题配套的图标主题。
 
 
 ### 废话
