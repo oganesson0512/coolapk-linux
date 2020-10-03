@@ -62,6 +62,19 @@ sudo pacman -Syy
 
 Github：https://github.com/vinceliuice/ChromeOS-theme
 
+#### debtap
+
+将deb包转为arch的pkg.tar.zst，虽然我还是更喜欢用dpkg重新打包
+
+建议安装后编辑/usr/bin/debtap，修改如下内容，将源换为ustc以提升debtap -u速率：
+
+```
+#替换：http://ftp.debian.org/debian/dists 
+https://mirrors.ustc.edu.cn/debian/dists 
+#替换：http://archive.ubuntu.com/ubuntu/dists 
+https://mirrors.ustc.edu.cn/ubuntu/dists/
+```
+
 #### flutter-coolapk：
 
 大佬写的酷安flutter版，现由[@xkeyc](https://github.com/xkeyC)大佬维护，虽然功能有些残缺，但是日常刷刷酷安还是可以的。    
@@ -87,6 +100,12 @@ Wiki：https://mcpelauncher.readthedocs.io/en/latest/getting_started.html
 现在还算活跃更新的一个fork：https://github.com/ChristopherHX/linux-packaging-scripts/
 
 以后可能会考虑使用后者继续更新。
+
+#### nautilus-admin
+
+一个缺了就很难受的nautilus插件，提供右键以管理员身份打开文件。
+
+Github：https://github.com/brunonova/nautilus-admin
 
 #### purewriter
 没错就是纯纯写作！由[@drakeet](https://github.com/PureWriter)大佬编写，[@Liaronce](https://github.com/LiarOnce)大佬编译。需要购买纯纯写作会员才能食用。目前可能有一些功能上的问题。         
