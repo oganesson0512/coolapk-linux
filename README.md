@@ -30,7 +30,7 @@
 
 <details>
 <summary>10月10日</summary>
-感谢[@theinterestingsoul](https://gitee.com/theinterestingsoul)大佬的帮助，gitee下载问题已解决，请注意修改pacman.conf。
+感谢@theinterestingsoul大佬的帮助，gitee下载问题已解决，请注意修改pacman.conf。
 
 </details>
 
@@ -123,6 +123,16 @@ Github：https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet
 </details>
 
 <details>
+<summary>lazygit</summary>
+
+
+给像我这种连git stage和git commit都嫌麻烦的懒人用的git客户端。
+
+Github：https://github.com/jesseduffield/lazygit
+
+</details>
+
+<details>
 <summary>mcpelauncher-client</summary>
 
 用来在Linux上运行Minecraft基岩版，通过在Linux上补全bionic有关库的方式运行android版mc。自测性能比Java版强些，但需要找到对应版本的apk（我只能说在某个群里有），而且必须是x86（或者如果你在Play上买了可以登录Google账户来获取）。    
@@ -145,6 +155,16 @@ Wiki：https://mcpelauncher.readthedocs.io/en/latest/getting_started.html
 一个缺了就很难受的nautilus插件，提供右键以管理员身份打开文件。
 
 Github：https://github.com/brunonova/nautilus-admin
+
+</details>
+
+<details>
+<summary>netease-music-tui</summary>
+
+
+另一个网抑云的tui客户端，相比iease-music有很多可圈可点的地方。使用前要先编辑~/.config/netease-music-tui/Settings.toml填入帐号密码，如果没有可以新建。
+
+Github：https://github.com/betta-cyber/netease-music-tui
 
 </details>
 
@@ -209,5 +229,5 @@ Github：https://github.com/Jannomag/Yaru-Colors
 
 或者直接酷安搜Linux话题
 
-因为开学了周末只能用我母亲的电脑，软件在wsl下打包，如果有问题请及时发issue
+因为开学了周末只能用我母亲的电脑，软件在wsl下打包，如果有问题请及时发issue，需要更新请在issue区催更。
 

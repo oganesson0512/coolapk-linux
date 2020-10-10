@@ -7,7 +7,8 @@ arch=('x86_64')
 url='https://github.com/betta-cyber/netease-music-tui/tree/v0.1.2'
 license=('MIT')
 provides=(netease-music-tui=${pkgver})
-directory='/home/alex/下载/metea/'
+directory='/home/alex/下载/netease-music-tui/'
+install=${pkgname}.install
 
 package() {
 mkdir -p $pkgdir/usr/bin/ $pkgdir/usr/share/applications/ $pkgdir/usr/share/netease-music-tui/
@@ -18,7 +19,3 @@ cp -r ./other/* $pkgdir/usr/share/netease-music-tui/
 ln -s $pkgdir/usr/bin/ncmt $pkgdir/usr/bin/netease-music-tui
 } 
 
-post_install() {
-cp -r /usr/share/netease-music-tui/config/Settings.toml /home/{*}/.config/netease-music-tui/Settings.toml
-echo "info:Before running please edit ~/.config/netease-music-tui/Settings.toml,For more information please read https://github.com/betta-cyber/netease-music-tui/tree/v0.1.2#configuration."
-}
