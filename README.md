@@ -30,8 +30,9 @@
 
 <details>
 <summary>10月10日</summary>
-
 感谢[@theinterestingsoul](https://gitee.com/theinterestingsoul)大佬的帮助，gitee下载问题已解决，请注意修改pacman.conf。
+
+</details>
 
 ## 介绍
 
