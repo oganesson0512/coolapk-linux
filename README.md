@@ -28,6 +28,11 @@
 
 </details>
 
+<details>
+<summary>10月10日</summary>
+
+感谢[@theinterestingsoul](https://gitee.com/theinterestingsoul)大佬的帮助，gitee下载问题已解决，请注意修改pacman.conf。
+
 ## 介绍
 
 酷安Linux交流群的Arch源，专门放archlinuxcn上面没有的软件，其中很多来源于酷安（当然，现在并没有多少）。
