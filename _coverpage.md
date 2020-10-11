@@ -4,8 +4,14 @@
 
 > 第三方archlinux软件源.
 
-* 前端框架：vue-cli、vue-router、axios、vuex
+* 添加以下内容到/etc/pacman.conf，然后pacman -Syy即可使用
+
+```
+[coolapk-linux]
+SigLevel = Optional TrustAll
+Server = http://alexander-huang.gitee.io/coolapk-linux/$repo/$arch
+```
 
 
-[GitHub](https://github.com/Hanxueqing/Douban-Movie.git)
+[Gitee](https://gitee.com/alexander-huang/coolapk-linux.git)
 [Get Started](#quick-start)
