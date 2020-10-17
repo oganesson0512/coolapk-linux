@@ -10,12 +10,12 @@ depends=('dtkwidget')
 url='https://blog.yzzi.top'
 license=('unknown')
 provides=(coolapk=${pkgver})
-
+directory='/home/alex/下载/tomato'
 
 package() {
 mkdir -p $pkgdir/opt/
 mkdir -p $pkgdir/usr/share/applications/
-cd /home/alex/下载/tomato
+cd ${directory}
 cp -r ./opt/top.yzzi.tomato $pkgdir/opt/
 cp -r $pkgdir/opt/top.yzzi.tomato/entries/applications/top.yzzi.tomato.desktop $pkgdir/usr/share/applications/
 mkdir -p $pkgdir/usr/bin/

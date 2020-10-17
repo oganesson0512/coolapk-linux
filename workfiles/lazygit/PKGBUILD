@@ -1,0 +1,17 @@
+pkgname=lazygit
+pkgver=0.23.1
+pkgrel=1
+pkgdesc='git tool for lazy ones like me'
+arch=('x86_64')
+url='https://github.com/jesseduffield/lazygit'
+license=('gplv3')
+directory='/home/alex/下载/lazy/lazygit_Linux_x86_64'
+
+
+package() {
+mkdir -p $pkgdir/usr/bin
+mkdir -p $pkgdir/usr/share/licenses/lazygit
+cd ${directory}
+cp -r ./lazygit $pkgdir/usr/bin
+cp -r ./LICENSE $pkgdir/usr/share/licenses/lazygit/
+}
