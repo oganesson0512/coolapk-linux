@@ -197,22 +197,26 @@ Github：https://github.com/uiYzzi/one-tomato
 
 AUR：https://aur.archlinux.org/packages/utools/
 
-<<<<<<< HEAD
-#### 8.yaru-gtk-theme-git
-yaru的gtk主题，带有二十多种颜色꒰⑅•ᴗ•⑅꒱
-
-Github：https://github.com/Jannomag/Yaru-Colors
-
-#### 9.yaru-icon-theme-git
-yaru的图标主题，和上面的gtk主题配套食用。
-
-Github：https://github.com/Jannomag/Yaru-Colors
-=======
 </details>
 
 <details>
 <summary>yaru-gtk-theme-git</summary>
->>>>>>> d11888cf2ca27de13c03461f6185326519aaf7f4
+
+yaru的gtk主题，带有二十多种颜色꒰⑅•ᴗ•⑅꒱
+
+Github：https://github.com/Jannomag/Yaru-Colors
+
+</details>
+
+<details>
+<summary>yaru-icon-theme-git</summary>
+yaru的图标主题，和上面的gtk主题配套食用。
+
+Github：https://github.com/Jannomag/Yaru-Colors
+</details>
+
+<details>
+<summary>yaru-gtk-theme-git</summary>
 
 ubuntu默认的yaru主题，颜色多样。
 
