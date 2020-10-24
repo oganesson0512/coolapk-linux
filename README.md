@@ -43,6 +43,7 @@
 先将源地址写入/etc/pacman.conf：国内用户推荐使用Gitee上的：
 
 ```yaml
+<button>copy</button>
 [coolapk-linux]
 SigLevel = Optional TrustAll
 Server = http://alexander-huang.gitee.io/coolapk-linux/$repo/$arch
@@ -54,6 +55,7 @@ Server = http://alexander-huang.gitee.io/coolapk-linux/$repo/$arch
 当然，~~如果你能顺畅访问Github~~，你也可以用**Fastgit，一个面向GitHub的反向代理，直接连接GitHub**：
 
 ```yaml
+<button>copy</button>
 [coolapk-linux]
 SigLevel = Optional TrustAll
 Server = https://raw.fastgit.org/CoolapkLinux/coolapk-linux/master/$repo/$arch
