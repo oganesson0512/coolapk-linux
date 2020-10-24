@@ -15,3 +15,5 @@ Server = http://alexander-huang.gitee.io/coolapk-linux/$repo/$arch
 
 [Gitee](https://gitee.com/alexander-huang/coolapk-linux.git)
 [Get Started](#介绍)
+
+![](workfiles/image/background.jpg)
