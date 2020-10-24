@@ -1,4 +1,4 @@
-![logo](https://docsify.js.org/_media/icon.svg)
+![logo](workfiles/image/logo.png)
 
 # Coolapk-Linux
 
