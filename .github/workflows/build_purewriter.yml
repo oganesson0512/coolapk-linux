@@ -6,7 +6,7 @@ name: build_purewriter
 # events but only for the master branch
 on:
   schedule:
-    - cron:  '*/0 0 * * *'
+    - cron:  '0 0 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -20,7 +20,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      
+      - name: Clone
+        id: clone
+        run: git clone https://github.com/CoolapkLinux/coolapk-linux.git
       - name: Validate PKGBUILD
         id: validate-pkgbuild
         uses: 2m/arch-pkgbuild-builder@v1.16
@@ -29,4 +31,12 @@ jobs:
            pkgname: 'workfiles/purewriter/'
       - name: Upload package
         id: upload
-        uses: 
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Add changes" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
