@@ -1,0 +1,55 @@
+name: list
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Update Build File
+        id: update
+        run: |
+          for packagename in `ls -AF workfiles |grep '/$' `
+          do echo '
+name: ${packagename}
+on:
+  schedule:
+    - cron:  '0 0 * * *'
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Validate PKGBUILD
+        id: validate-pkgbuild
+        uses: 2m/arch-pkgbuild-builder@v1.16
+        with:
+           target: 'pkgbuild'
+           pkgname: 'workfiles/$packagename/'
+      - name: Upload package
+        id: upload
+        run: |
+          mv workfiles/${packagename}/*.zst coolapk-linux/x86_64/
+          git config --local user.email "w1301511091@hotmail.com"
+          git config --local user.name "oganesson0512"
+          git add .
+          git commit -m "Build" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}' > workflows/${packagename}_build.yml
+      - name: Upload 
+        id: upload
+        run: |
+          git config --local user.email "w1301511091@hotmail.com"
+          git config --local user.name "oganesson0512"
+          git add .
+          git commit -m "Build" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
