@@ -7,3 +7,4 @@
 
 酷安Linux交流群的Arch源，专门放archlinuxcn上面没有的软件，其中很多来源于酷安（当然，现在并没有多少）。
 
+[使用方法](#/docs/getting-started)   [已有软件](#/docs/packages)   [公告板](#/docs/notice)   [写在最后](#/docs/contact)

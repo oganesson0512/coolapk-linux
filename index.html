@@ -2,12 +2,13 @@
 <html>
 <head>
   <title>Coolapk-Linux repo for Arch</title>
+  <link rel="icon" href="workfiles/image/logo.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 </head>
-<body>
+<body data-page="docs/front.md" class="ready sticky">
   <div id="app"></div>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
@@ -18,7 +19,9 @@
     loadNavbar: true,
     loadSidebar: true,
     name: 'Coolapk-Linux',
-    coverpage: true
+    coverpage: true,
+    maxlevel: 4,
+    submaxlevel: 2
   }
 </script>
 
