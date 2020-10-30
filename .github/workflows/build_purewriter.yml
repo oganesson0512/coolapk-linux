@@ -32,9 +32,10 @@ jobs:
       - name: Upload package
         id: upload
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "Add changes" -a
+          mv workfiles/purewriter/*.zst coolapk-linux/x86_64/
+          git config --local user.email "w1301511091@hotmail.com"
+          git config --local user.name "oganesson0512"
+          git commit -m "Build" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
