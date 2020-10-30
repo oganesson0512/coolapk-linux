@@ -22,7 +22,7 @@ jobs:
 
       - name: Clone
         id: clone
-        run: git clone https://github.com/CoolapkLinux/coolapk-linux.git
+        run: git clone https://github.com/oganesson0512/coolapk-linux.git
       - name: Validate PKGBUILD
         id: validate-pkgbuild
         uses: 2m/arch-pkgbuild-builder@v1.16
