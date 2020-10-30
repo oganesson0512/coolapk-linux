@@ -4,4 +4,6 @@ on:
 jobs:
   test:
     runs-on: ubuntu-lastest
-    run: ls
+    steps:
+      - name: test
+        run: ls
