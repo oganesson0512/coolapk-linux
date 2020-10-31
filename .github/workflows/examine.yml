@@ -15,3 +15,12 @@ jobs:
          sed '/pkgver/c${pkgonlinever}' pkgbuild/${pkg}/PKGBUILD
          fi
          done
+         git config --local user.email "w1301511091@hotmail.com"
+         git config --local user.name "oganesson0512"
+         git add .
+         git commit -m "Build" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
