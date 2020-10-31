@@ -6,7 +6,7 @@ arch=("x86_64")
 url="https://github.com/jesseduffield/lazygit"
 license=("MIT")
 depends=("git" "glibc")
-source=("https://hub.fastgit.org/jesseduffield/lazygit/releases/download/v${pkgver}/lazygit_${pkgver}_Linux_x86_64.tar.gz")
+source=("https://github.com/jesseduffield/lazygit/releases/download/v${pkgver}/lazygit_${pkgver}_Linux_x86_64.tar.gz")
 md5sums=("SKIP")
 
 package () {
