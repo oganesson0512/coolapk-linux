@@ -3,11 +3,15 @@ on:
   workflow_dispatch:
 jobs:
   examine:
-    runs_on: ubuntu_latest
+    runs-on: ubuntu_latest
     steps:
       - uses: actions/checkout@v2
       - run: |
          for pkg in `ls -AF pkgbuild |grep '/$' | tr -d '/'`
          do
          pkgver=$(cat pkgbuild/${pkg}/PKGBUILD|grep pkgver=|awk -F\= '{print $2}')
+         pkgonlinever=$(curl https://api.github.com/repos/$(cat pkgbuild/${pkg}/PKGBUILD|grep source=|awk -F\/ '{print $4}')/$(cat pkgbuild/${pkg}/PKGBUILD|grep source=|awk -F\/ '{print $5}')/releases/latest|grep tag_name|awk -F\" '{print $4}')
+         if [${pkgver} != ${pkgonlinever}]; then
+         sed /pkgver/c${pkgonlinever}' pkgbuild/${pkg}/PKGBUILD
+         fi
          done
