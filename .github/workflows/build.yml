@@ -13,7 +13,7 @@ jobs:
         uses: 2m/arch-pkgbuild-builder@v1.16
         with:
            target: 'pkgbuild'
-           dictionary: 'workfiles'
+           dictionary: 'pkgbuild'
       - name: Upload package
         id: upload
         run: |
