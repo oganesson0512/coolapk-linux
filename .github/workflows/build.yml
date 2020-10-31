@@ -17,6 +17,7 @@ jobs:
       - name: Upload package
         id: upload
         run: |
+          mv pkgbuild/*/*.zst coolapk-linux/x86_64/
           git config --local user.email "w1301511091@hotmail.com"
           git config --local user.name "oganesson0512"
           git add .
