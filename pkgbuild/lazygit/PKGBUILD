@@ -1,5 +1,5 @@
 pkgname=lazygit
-pkgver=v0.23.6
+pkgver=v0.23.3
 pkgrel=1
 pkgdesc="A simple terminal UI for git commands"
 arch=("x86_64")
